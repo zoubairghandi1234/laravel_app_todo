@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 30%;
+    height: 50vh;
+    background-color: rgb(0, 11, 130);
+    margin: 80px auto;
+    padding: 15px;
+    border-radius: 15px;
+    color: rgb(188, 188, 188);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.container h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+}
+
+.list{
+    text-align: center;
+    overflow: auto;
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #888 #f1f1f1; 
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;
+}
+.input{
+    padding: 0px 10px 0px 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+}
+
+.input input{
+    width: 70%;
+    height: 30px ;
+    border-radius: 15px;
+    padding-left: 12px;
+    border: none;
+    
+}
+
+.input button{
+    width: 80px;
+    height: 30px ;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.input button:hover{
+    background-color: rgb(12, 83, 7);
+    color: white;
+}
+form{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.item{
+    border: 2px solid black;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 12px;
+    
+    
+}
+
+.item form{
+    width: 100px;
+    margin-left: auto;
+}
+
+.item button{
+    
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.item button:hover{
+    background-color: aqua;
+}
